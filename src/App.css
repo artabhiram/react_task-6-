@@ -1,38 +1,75 @@
-.App {
+#id{
+  background-color: black;
+  width:1473px;
+}
+#id1{
+  width: 1473px;
+  height:200px;
+  background-image: url("codes.jpg");
+  -webkit-text-fill-color: orange;
+  font-size: 50px;
+  text-align: center;
+  padding-top:50px;
+}
+#id2{
+  width:1473px;
+  height:400px;
+  text-align: center;
+  background-image: url("waters.jpg");
+}
+#id3{
+  font-size: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#id4{
+  background-image: url("themes.jpg");
+  height:200px;
+  width:1473px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#id5{
+  font-size: 30px;
+  margin-left:30px;
+  margin-right:20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#id5:hover{
+  -webkit-text-fill-color: orange;
 }
-
-.App-link {
-  color: #61dafb;
+#id6{
+  font-size:30px;
+  cursor: pointer;
+  margin-right: 30px;
+  -webkit-text-fill-color: blue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#id6:hover{
+  -webkit-text-fill-color: orange;
+}
+#id8{
+  text-decoration: none;
+}
+#id9{
+  background-image: url("profile.jpeg");
+  width:1473px;
+  height:200px;
+  text-align: center;
+}
+#id10{
+  background-image: url("starsc.jpg");
+  width:1473px;
+  height:200px;
+  text-align: center;
+}
+#id11{
+  font-size:25px;
+  cursor: pointer;
+  margin-right: 50px;
+  -webkit-text-fill-color: blue;
+}
+#id11:hover{
+  -webkit-text-fill-color: orange;
+}
+#id12{
+  -webkit-text-fill-color: white;
+  font-size: 50px;
+  text-align: center;
 }
